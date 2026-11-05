@@ -1,0 +1,13 @@
+id,full_name,email,company,signup_date,country,notes
+001,  Anna   Lee ,Anna.LEE@EXAMPLE.COM, Northwind  LLC ,2026-10-15,US,Lead imported
+002,Daniel Shore,daniel.shore@example.com,Bluebeam,15.10.2026,UK,Follow up requested
+003,Anna Lee, anna.lee@example.com,Northwind LLC,,USA,
+004,Jane  Patel , jane.patel.example.com ,Atlas Studio,05/06/2026,uk,Confirm email/date
+005,Rafael Torres,RAFAEL.TORRES@EXAMPLE.ORG,Deep Field Ltd,2026/09/18,GB,Newsletter
+006,Mei Chen,mei.chen@example.net,Cloud Borough,18.09.2026,United States, 
+007,Mei Chen, MEI.CHEN@example.net ,Cloud Borough,2026-09-18,US,VIP
+008,Naomi Silva,,Eastwind,12.10.2026,DE,Missing contact
+009,Lucas Grant,lucas.grant@example.com,Northwind LLC,2026-10-15,USA,
+010,Amina Bakir,amina@example.org,Az Design,2026-10-14,AZ,Demo
+011,Jane Patel,jane.patel@example.com,Atlas Studio,14.10.2026,United Kingdom,Verified internally
+012,Lina Meyer,lina@bad,Example GmbH,2026-10-19,Germany,Syntax issue
