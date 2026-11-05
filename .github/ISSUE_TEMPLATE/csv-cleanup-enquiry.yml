@@ -1,0 +1,48 @@
+name: CSV / Excel cleanup enquiry
+description: Ask for a fixed-price data cleanup pilot. Do not share confidential data or actual contact lists publicly.
+title: "[Enquiry] CSV cleanup"
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest. This form is for a **quote only**, not an order or a payment. Do not share any sensitive or private data here. Terms and an approved secure transfer method must be agreed before files are received.
+  - type: dropdown
+    id: format
+    attributes:
+      label: Source file type
+      options:
+        - CSV
+        - Excel (.xlsx)
+        - Other / unsure
+    validations:
+      required: true
+  - type: input
+    id: approximate_size
+    attributes:
+      label: Approximate number of rows and columns
+      placeholder: e.g., 600 rows x 8 columns
+    validations:
+      required: true
+  - type: textarea
+    id: problems
+    attributes:
+      label: What needs fixing?
+      description: Describe only field names and general issues. Do not paste any actual contact or other personal data.
+      placeholder: Repeated emails, mixed country labels, missing dates, inconsistent text formats.
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Desired delivery date
+      placeholder: e.g., 2026-11-15
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Data safety
+      options:
+        - label: I understand I should not upload private, personal or confidential client data to a public GitHub issue.
+          required: true
